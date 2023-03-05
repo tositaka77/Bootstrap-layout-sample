@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./base.css" rel="stylesheet">
+
+    <title>Hello, Neko world!</title>
+  </head>
+  
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Neko World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#world">世界の猫</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#japan">日本の猫</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cat-history">猫の歴史</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="./img/carousel-1.jpg" class="d-block w-100 carousel-img" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="./img/carousel-2.jpg" class="d-block w-100 carousel-img" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="./img/carousel-3.jpg" class="d-block w-100 carousel-img" alt="...">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container" id="world">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <h2>世界の猫</h2>
+            <div class="col">
+                <img src="./img/circle-1.jpg" class="circle-img rounded" alt="...">
+                <h2>アビシニアン</h2>
+                <p>1868年のイギリス・アビシニア戦争後、従軍したイギリス兵がエジプトのアレクサンドリアの港にいた「ズーラ」という名の雌ネコをイギリスに持ち帰ったのが起源とされる。その後、イギリスで在来の縞ネコと掛け合わされ、ヨーロッパに広まったと見られる。世界中のほとんどのアビシニアンはこのズーラの子孫と考えられるが、リビアから同種のネコがアメリカに持ち込まれた可能性もある。日本の雉猫を祖とすると書かれた書籍などもあるが、裏付けに乏しく信憑性は低いと言える。ソマリとは近縁であるとされる。</p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col">
+                <img src="./img/circle-2.jpg" class="circle-img rounded" alt="...">
+                <h2>シャム</h2>
+                <p>古来よりタイには3種のネコ、シィ・サワット（コラットの原型）、スパラック（バーミーズの原型）、そしてシャムが存在していた。中でもシャムは王室や貴族、寺院など、高貴な血筋の家系でのみ飼うことが許されるなど非常に尊い扱いをうけてきた。それが1884年にイギリス総領事であったゴードンに寄贈されたことによりイギリス本国へ渡り、ロンドンのクリスタル・パレスで行われたキャットショーにてその特徴的な毛色が注目を集め、世界に広がる事となった。</p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col">
+                <img src="./img/circle-3.jpg" class="circle-img rounded" alt="...">
+                <h2>シャルトリュー</h2>
+                <p>その起源については様々な言い伝えが残されてはいるものの、詳らかにはなっていない[4]。シャルトリュー派の修道士が北アフリカから船で連れ帰ってきた猫の子孫であるとする説から、シリア出身の猫の子孫であるとする説、十字軍の時代に欧州に持ち込まれた猫の子孫であるとする報告までがあり、その名の由来については、フランスのカルトゥジオ修道士が生み出したシャルトリューズという名のリキュールにあるとする説や、18世紀前半のスペインの羊毛の名にあるとする説が提唱されている。</p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+
+        <hr >
+
+        <div class="row" id="japan">
+            <div class="col-md-7">
+                <h2>日本の猫</h2>
+                <p>日本列島では縄文時代には家畜としての縄文犬が存在し、野生のヤマネコ（オオヤマネコなど）も生息していたが、狩猟対象ではあったが家畜化されるまでにはまだ至らなかった。弥生時代には稲作農耕の開始に伴い、家畜化されたブタ・ニワトリが導入された。弥生時代には長崎県壱岐市に所在するカラカミ遺跡（弥生時代）からネコの遺骨の発出土事例があり、紀元前から日本にネコが存在していた可能性が考えられている。</p>
+            </div>
+            <div class="col-md-5">
+                <img src="./img/japan-cat.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  alt="...">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row" id="cat-history">
+            <div class="col-md-5">
+                <img src="./img/wild-cat.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  alt="...">
+            </div>
+
+            <div class="col-md-7">
+                <h2>猫の歴史</h2>
+                <p>愛玩用家畜として同じく一般的なイヌ Canis lupus familiarisに比して、ネコは飼育開始の時期が遅いが、これは家畜化の経緯の相違による。イヌは狩猟採集民に猟犬や番犬として必要とされ、早くから人の社会に組み込まれたが、ネコは、農耕の開始に伴い鼠害（ネズミの害）が深刻にならない限り有用性がなく、むしろ狩猟者としては競合相手ですらあった。その競合的捕食動物が人のパートナーとなり得たのは、穀物という「一定期間の保管を要する食害を受けやすい財産」を人類が保有するようになり、財産の番人としてのネコの役割が登場したことによる。また、伝染病を媒介する鼠を駆除することは、結果的に疫病の予防にもなった。さらに、記録媒体として紙など食害されやすい材料が現れると、これを守ることも期待された。日本には平安時代に倉庫の穀物や経典類の番人として輸入されたことにより渡来してきたものと考えられてきたが、近年の研究では移入期が紀元前2世紀の弥生時代までさかのぼる可能性が出てきた。縄文時代に該当する出土骨も存在するが、家畜としてのネコなのかは不明瞭である。</p>
+                <p>農耕が開始され集落が出現した時期の中東周辺で、山野でネズミやノウサギを追っていたネコがネズミが数多く集まる穀物の貯蔵場所に現れ、棲みついたのが始まりと考えられている（リビアヤマネコの生息地と農耕文化圏が重なった地域で、複数回起こっていたと考えられる）。穀物には手を出さず、それを食害する害獣、害虫のみを捕食することから双方の利益が一致し、穀物を守るネコは益獣として大切にされるようになり、やがて家畜化に繋がった。</p>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+    </div>
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Neko world</a></p>
+        <p>&copy; 2023 Neko world</p>
+    </footer>
+
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
